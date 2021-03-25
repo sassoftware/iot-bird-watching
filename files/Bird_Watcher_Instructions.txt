@@ -1,0 +1,26 @@
+Bird Watcher Project Instructions
+
+1. Set up your Raspberry Pi and webcam and make sure that the webcam is taking pictures
+
+2. In echo-client.py, make sure you enter the IP address of your ESP server, along with a
+port that is open. Make sure that port number is the same for both 'echo-client.py' and the
+'image_stream' window in 'Bird_Watcher.xml'. Transfer this file to your Raspberry Pi.
+
+3. To use the email part of the project, you'll need to be running ESP on a linux server
+and have access to the server. If you do, put 'send_pic.sh' in the same directory in which
+the server is running. Make sure you input your email address inside this script.
+
+If you don't have access to the server running ESP, you can remove this part of the project
+by deleting the 'send_image' window in the ESP project. To remove the window, simply click on
+it and hit the delete key.
+
+4. Put 'resnet50_notop.astore' in the same directory in which the ESP server is running.
+
+5. Run the ESP project
+
+6. In the ESP Studio, after the project is running, to the right of the 'Run Test' button, there is a
+'Publish' button. Click this, and upload the 'request_astore.csv' file to the 'request_Astore' window
+
+7. Run 'echo-client.py' on the Raspberry Pi
+
+If everything is set up correctly, you should see events populating the windows in the ESP Studio
