@@ -2,7 +2,19 @@
 
 This is a guide for creating your own IoT bird watching project.
 
-[[_TOC_]]
+## Table of Contents
+
+* [Overview](#overview)
+* [Goal](#goal)
+* [Prerequisites](#prerequisites)
+* [Installation Steps](#installation-steps)
+* [From a Webcam to ESP](#from-a-webcam-to-esp)
+* [Identifying Birds](#identifying-birds)
+* [ESP Project](#esp-project)
+* [Conclusion](#conclusion)
+* [Contributing](#contributing)
+* [License](#license)
+* [Additional Resources](#additional-resources)
 
 ## Overview
 
